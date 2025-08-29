@@ -1,14 +1,22 @@
-# Python-Scripting-Project
+# Go Game Builder
 
-# 💻 Launch Your Software Development Career Today!  
+A Python utility for managing, compiling, and packaging Go game projects.
 
-🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  
+## Features
+- Finds all directories containing "game"
+- Copies and organizes them into a target folder
+- Compiles Go source code automatically (`go build .`)
+- Generates a `metadata.json` with game names and count
 
-🚀 **Why Join?**  
-- 💼 **$70k+ starting salary potential**  
-- 🕐 **Self-paced:** Complete on your own time  
-- 🤑 **Affordable:** Low risk compared to expensive bootcamps or degrees
-- 🎯 **45,000+ job openings** in the market  
+## Requirements
+- Python 3.7+
+- Go installed and available in your system path
 
-👉 **[Start your journey today!](https://techwithtim.net/dev)**  
-No experience needed—just your determination. Future-proof your career and unlock six-figure potential like many of our students have!  
+## Usage
+```bash
+# Clone the repo
+git clone <your-repo-url>
+cd go-game-builder
+
+# Run the script
+python main.py <source_dir> <target_dir>
